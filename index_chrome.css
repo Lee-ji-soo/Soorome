@@ -5,6 +5,10 @@ body{
     background-color:#111;
 }
 
+section{
+    margin-top:250px;
+}
+
 
 #js-clock{
     margin-top:30px;
