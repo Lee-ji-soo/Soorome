@@ -1,0 +1,77 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Public+Sans:100,200,300,400,500,600,700,800&display=swap');
+
+body{
+    background-color:#111;
+}
+
+
+#js-clock{
+    margin-top:30px;
+    text-align: center;
+    font-size:100px;
+    letter-spacing:2px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+}
+
+.form, .greetings{
+    font-size:50px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    margin-top:15px;
+    text-align: center;
+    display:none;
+}
+.js-greetings{
+    margin-bottom: 30px;
+}
+input{
+    width:40%;
+    height:28px;
+    text-align: center;
+    font-size:16px;
+}
+input:focus{
+    outline:none;
+}
+
+.showing{
+    display:block;
+}
+
+.js-toDoForm {
+    margin-top:20px;
+     text-align: center;
+}
+
+.js-toDoList{
+    margin-top:20px;
+    text-align: center;
+}
+
+.js-toDoList li{
+    margin-top:10px;
+}
+.js-toDoList button{
+    margin-left:7px;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top:-2px;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    animation:fadeIn 1s linear;
+}
